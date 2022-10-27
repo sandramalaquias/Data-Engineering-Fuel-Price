@@ -77,8 +77,8 @@ It will be necessary to run two dags because the historical and current data are
 
 - Dag **"fuel_hist"** found at "new_fuel.py". The scheduled is per semester, starting at 2007 and ending at 2021. At the end for all period,  turned off the dag, will no longer be needed.
 
-- **"fuel_current_year"** found at "new_fuel_2022.py". The scheduled is per month, starting at January 2022, and ending at August 2022. At the end for all period, if it is necessary to keep the extraction, remove the end date from the script and keep it active, or turn off the dag.
-- 
+- Dag **"fuel_current_year"** found at "new_fuel_2022.py". The scheduled is per month, starting at January 2022, and ending at August 2022. At the end for all period, if it is necessary to keep the extraction, remove the end date from the script and keep it active, or turn off the dag.
+
 # ETL - Spark / Pyspark
 
 
@@ -152,7 +152,7 @@ Run that script like:
 Configuration:
 - inputpath: the file path
 
-At the end, take files below::
+At the end, take files below:
 - graph_fuel_timeline.jpg - timeline graph to see the evolution of all data 
 - fuel_gas.html - statistic analysis (pandas profiling)
 
