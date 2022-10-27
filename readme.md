@@ -25,16 +25,16 @@ This project consists of several stages:
 - loading data into Redshift using AIRFLOW again 
 - selecting and downloading data for analysis using the Redshift editor 
 - simple graphic using a python script.
-- 
+
 # Data Modeling
-See source data:
-!(<iframe width="560" height="315" src='https://dbdiagram.io/embed/634ea66d4709410195888817'> </iframe>)
+[See source data](https://dbdiagram.io/embed/634ea66d4709410195888817)
+![](https://github.com/sandramalaquias/Data-Engineering-Fuel-Price/blob/master/fuel_initial.png)
 
-See the connect fields:
-!(<iframe width="560" height="315" src='https://dbdiagram.io/embed/633446987b3d2034ffd9aa36'> </iframe>)
+[See the connect fields](https://dbdiagram.io/embed/633446987b3d2034ffd9aa36)
+![](https://github.com/sandramalaquias/Data-Engineering-Fuel-Price/blob/master/fuel_initial_keys.png)
 
-See the Data Purpose:
-!(<iframe width="560" height="315" src='https://dbdiagram.io/embed/634ebb2c470941019589cbee'> </iframe>)
+[See the Data Purpose](https://dbdiagram.io/embed/634ebb2c470941019589cbee)
+![](https://github.com/sandramalaquias/Data-Engineering-Fuel-Price/blob/master/fuel_final.png)
 
 # ELT / ETL - Airflow
 
