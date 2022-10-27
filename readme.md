@@ -1,7 +1,5 @@
-﻿
+![](https://github.com/sandramalaquias/Data-Engineering-Fuel-Price/blob/master/fuel.png)
 
-
-> ![](https://i0.statig.com.br/bancodeimagens/ez/fg/98/ezfg98r827zduzwgsaimhi04x.jpg)
 # Project: Fuel price analysis 
 
 Brazil closed the first half of 2022 with a 5.49% rise in official consumer price inflation, according to the IBGE (Brazilian Institute of Geography and Statistics). The price of a liter of gasoline rose 9.8% in the period, according to the ANP (National Agency for Petroleum, Natural Gas and Biofuels). In other words, the fuel soared more than the official inflation.
