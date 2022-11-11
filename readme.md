@@ -116,15 +116,16 @@ Create the cluster:
 - run "AWS_redshift_create_cluster.py". Take note of the endpoint showned, which will be used to update Airflow.
 
 - Update o Airflow at Admin > Connection -> + (add a new record):
-
-  > Connection Id: redshift 
-  > Connection Type: choose "Postgres"	 
-  > Description: connect Airflow to Redshift using Postgres
-  > Host: your redshift endpoint
-  > Schema: your schema name  
-  > Login: your username  
-  > Password: your user redshift password 
-  > Port: 5439
+```
+  - Connection Id: redshift   
+  - Connection Type: choose "Postgres"	
+  - Description: connect Airflow to Redshift using Postgres
+  - Host: your redshift endpoint
+  - Schema: your schema name  
+  - Login: your username  
+  - Password: your user redshift password 
+  - Port: 5439
+```
 
 At Airflow, run dag "**FuelToRedshift**" that is in "fuel_to_redshift.py". This Dag doesn't have an automatic start, then starts manually.
 You can run it whenever you find it necessary, in the end, the Redshift will be up to date.
